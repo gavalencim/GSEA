@@ -1,0 +1,7 @@
+Para correr el archivo, en consola:
+make clean #
+make #compilo con el makefile
+chmod +x test-gsea.sh
+./test-gsea.sh
+
+
