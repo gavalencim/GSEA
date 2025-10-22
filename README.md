@@ -388,10 +388,10 @@ Archivo Encriptado → [XOR Decrypt] → Datos Comprimidos → [Huffman Decompre
 proyecto3/
 ├── main.cpp              # Programa principal con syscalls
 ├── huffman.h             # Algoritmo de compresión Huffman
-├── xor_cipher.h          # Algoritmo de encriptación XOR
+├── xor.h          # Algoritmo de encriptación XOR
 ├── Makefile              # Script de compilación
 ├── README.md             # Este archivo
-└── test_gsea.sh          # Script de pruebas automatizado (opcional)
+└── test-gsea.sh          # Script de pruebas automatizado (opcional)
 ```
 
 ---
@@ -400,10 +400,10 @@ proyecto3/
 
 ### Ejecutar Suite de Pruebas Completa
 
-Si tienes el script `test_gsea.sh`:
+Si tienes el script `test-gsea.sh`:
 ```bash
-chmod +x test_gsea.sh
-./test_gsea.sh
+chmod +x test-gsea.sh
+./test-gsea.sh
 ```
 
 El script prueba:
